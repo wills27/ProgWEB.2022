@@ -1,0 +1,73 @@
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+
+body {
+	font-family: "Lucida Sans Unicode", Verdana, sans-serif;
+	line-height: 1.6;
+	background: #44b1b3 url('noise.png');
+}
+
+.lugar{
+	border-color: #CCC #999 #999 #CCC;
+	border-style: solid;
+	border-width: 4px;
+	margin-bottom: 20px;
+	padding: 10px;
+	background: #a4edd1 url('noise.png');
+}
+
+.lugar h2{
+	border-bottom: 1px dashed #5C6818;
+	margin: 0;
+}
+
+.lugar a{
+	color: #2C11AF;
+	font-weight: bold;
+}
+
+a:hover { // :focus :visited :active
+	color: white;
+	background-color: white;
+}
+
+.lugar img{
+	height: 200px;
+	border: 1px solid black;
+	float: left;
+	margin: 10px 10px 0 0;
+	padding: 2px;
+}
+
+.clear{
+	clear: both;
+}
+
+.notas{
+	background-color: rgba(210, 210, 210, 0.3);
+	padding: 10px;
+	float:right;
+	width: 260px;
+}
+.notas h3{
+	font-size: 14px;
+	margin-top: 0;
+	}
+
+.notas ol{
+	font-size: 12px;
+}
+
+.principal {
+	float:left;
+	width:660px;
+}
+
+footer {
+	text-align: center;
+	font-size: 12px;
+	clear: both;
+}
