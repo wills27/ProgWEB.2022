@@ -78,11 +78,18 @@ table, td {
 	margin: 0 auto;
 }
 
-th{
-	margin: 0 auto;
-}
-
 td {
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+iframe {
+	width:400px;
+	height:400px;
+}
+
+.iframe {
+	clear:both;
+	margin: 20px;
+	margin-left: 200px;
 }
