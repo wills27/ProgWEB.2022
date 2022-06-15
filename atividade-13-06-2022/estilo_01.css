@@ -71,3 +71,18 @@ footer {
 	font-size: 12px;
 	clear: both;
 }
+
+table, td {
+	border: 1px solid black;
+    border-collapse: collapse;
+	margin: 0 auto;
+}
+
+th{
+	margin: 0 auto;
+}
+
+td {
+	padding-left: 10px;
+	padding-right: 10px;
+}
