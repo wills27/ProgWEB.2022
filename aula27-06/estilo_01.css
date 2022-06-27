@@ -1,0 +1,75 @@
+body {
+    background-color:white;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        background-color: lightblue;
+    }
+    div.example{
+        display:none;
+    }
+}
+
+@media print {
+    *{
+        background: transparent !important;
+        border-color: black !important;
+        box-shadow: none !important;
+        color: black !important;
+        text-shadow: none !important;
+    }
+    a{ 
+        display: block;
+        text-decoration: underline !important;
+     }
+    a[href]::after {
+        content: '(' attr(href)')';
+    }
+    a[href^="javascript:"]::after, a[href^="#"]::after{
+        content: "";
+    }
+}
+
+ 
+
+h1{
+    font-family: 'Press Start 2P', cursive;
+}
+
+.tnt{
+    border-radius: 50%;
+    border: 5px solid red;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 50px;
+    color: red;
+}
+
+.counter{
+    background-color: #000;
+    border-top-left-radius: 25px 10px;
+    border-top-right-radius: 25px 10px;
+    color: white; display: block;
+    font-size: 1.7em; height: 50px;
+    line-height: 50px; text-align: center;
+    width: 50px;
+}
+
+figure{
+    position: relative;
+}
+img {
+    display: block;
+}
+
+figcaption{
+    bottom: 5px;
+    margin: 0px;
+    padding: 5px;
+    position: absolute;
+    width: 300px;
+    background-color: rgba(0,0,0,0);
+    color: #FFF;
+}
