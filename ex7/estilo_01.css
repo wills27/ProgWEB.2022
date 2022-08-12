@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin-bottom: 100px;
+}
+
+a {
+    text-decoration: none;
+    /*colocar após definir o background de header
+    adicioanr aqui sites que permitam escolher melhor o contraste
+    entre as cores (https://contrast-checker.glitch.me/)*/
+    color: white;
+}
+
+.header {
+    background: rgb(11, 114, 139);
+    display: flex;
+    /*quando a tela for bem pequena, um item vai para baixo do outro*/
+    flex-wrap: wrap;
+    /* adiciona espaços em volta deles também,
+       deslocando-os para o centro
+    justify-content: space-around;
+    */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 5px;
+}
+
+.menu li a {
+    display: block;
+    padding: 15px;
+}
+
+.menu li a:hover {
+    background-color: rgba(250, 235, 215, 0.05);
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    min-width: 200px;
+    max-height: 200px;
+    background-color: gainsboro;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+/* Flexbox 1 */
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flexbox p, .flexbox label {
+    text-align: center;
+    display: block;
+}
+
+.flexbox > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
